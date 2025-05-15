@@ -1,0 +1,19 @@
+# Smithery configuration file: https://smithery.ai/docs/build/project-config
+
+startCommand:
+  type: stdio
+  configSchema:
+    # JSON Schema defining the configuration options for the MCP.
+    type: object
+    required:
+      - thegraphApiKey
+    properties:
+      thegraphApiKey:
+        type: string
+        description: The Graph API key for accessing subgraphs
+  commandFunction:
+    # A JS function that produces the CLI command based on the given config to start the MCP on stdio.
+    |-
+    (config) => ({ command: 'python', args: ['main.py'], env: { THEGRAPH_API_KEY: config.thegraphApiKey } })
+  exampleConfig:
+    thegraphApiKey: YOUR_THEGRAPH_API_KEY_HERE
