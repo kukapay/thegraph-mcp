@@ -1,10 +1,12 @@
 # TheGraph MCP Server
 
-An MCP server that powers AI agents with indexed blockchain data from [The Graph](https://thegraph.com/).
-
+[![smithery badge](https://smithery.ai/badge/@kukapay/thegraph-mcp)](https://smithery.ai/server/@kukapay/thegraph-mcp)
 ![GitHub License](https://img.shields.io/github/license/kukapay/thegraph-mcp) 
 ![GitHub Last Commit](https://img.shields.io/github/last-commit/kukapay/thegraph-mcp) 
 ![Python Version](https://img.shields.io/badge/python-3.10%2B-blue)
+
+An MCP server that powers AI agents with indexed blockchain data from [The Graph](https://thegraph.com/).
+
 
 ## Available Tools
 
@@ -27,6 +29,15 @@ Executes GraphQL queries against a specified subgraph. While queries are typical
 
 ## Installation
 
+### Installing via Smithery
+
+To install TheGraph MCP Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@kukapay/thegraph-mcp):
+
+```bash
+npx -y @smithery/cli install @kukapay/thegraph-mcp --client claude
+```
+
+### Manual Installation
 1. **Clone the Repository**
     ```bash
     git clone https://github.com/kukapay/thegraph-mcp.git
