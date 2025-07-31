@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/kukapay-thegraph-mcp-badge.png)](https://mseep.ai/app/kukapay-thegraph-mcp)
+
 # TheGraph MCP Server
 
 An MCP server that powers AI agents with indexed blockchain data from [The Graph](https://thegraph.com/).
