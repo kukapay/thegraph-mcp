@@ -10,6 +10,8 @@ An MCP server that powers AI agents with indexed blockchain data from [The Graph
 ![GitHub Last Commit](https://img.shields.io/github/last-commit/kukapay/thegraph-mcp) 
 ![Python Version](https://img.shields.io/badge/python-3.10%2B-blue)
 
+[![Trust Score](https://archestra.ai/mcp-catalog/api/badge/quality/kukapay/thegraph-mcp)](https://archestra.ai/mcp-catalog/kukapay__thegraph-mcp)
+
 ## Available Tools
 
 ### 1. getSubgraphSchema
