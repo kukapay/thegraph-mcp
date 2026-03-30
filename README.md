@@ -50,6 +50,10 @@ Executes GraphQL queries against a specified subgraph. While queries are typical
     }
     ```
 
+## Hosted deployment
+
+A hosted deployment is available on [Fronteir AI](https://fronteir.ai/mcp/kukapay-thegraph-mcp).
+
 ## Example Prompts
 
 Here are some natural language prompts to trigger the tools:
